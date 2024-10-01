@@ -9,13 +9,41 @@
 /* Begin PBXBuildFile section */
 		B17A87DF2CAC5D5B00846C4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17A87DE2CAC5D5B00846C4A /* AppDelegate.swift */; };
 		B17A87E12CAC5D5B00846C4A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17A87E02CAC5D5B00846C4A /* SceneDelegate.swift */; };
-		B17A87E32CAC5D5B00846C4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17A87E22CAC5D5B00846C4A /* ViewController.swift */; };
 		B17A87E62CAC5D5B00846C4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B17A87E42CAC5D5B00846C4A /* Main.storyboard */; };
 		B17A87E82CAC5D5C00846C4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B17A87E72CAC5D5C00846C4A /* Assets.xcassets */; };
 		B17A87EB2CAC5D5C00846C4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B17A87E92CAC5D5C00846C4A /* LaunchScreen.storyboard */; };
 		B17A87F62CAC5D5D00846C4A /* RecipeAppBackportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17A87F52CAC5D5D00846C4A /* RecipeAppBackportTests.swift */; };
 		B17A88002CAC5D5D00846C4A /* RecipeAppBackportUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17A87FF2CAC5D5D00846C4A /* RecipeAppBackportUITests.swift */; };
 		B17A88022CAC5D5D00846C4A /* RecipeAppBackportUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17A88012CAC5D5D00846C4A /* RecipeAppBackportUITestsLaunchTests.swift */; };
+		B17A88102CAC5DBD00846C4A /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B17A880F2CAC5DBD00846C4A /* CryptoSwift */; };
+		B17A88132CAC5DF600846C4A /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = B17A88122CAC5DF600846C4A /* Kingfisher */; };
+		B17A88162CAC5EE800846C4A /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = B17A88152CAC5EE800846C4A /* RxCocoa */; };
+		B17A88182CAC5EE800846C4A /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B17A88172CAC5EE800846C4A /* RxSwift */; };
+		B17A881B2CAC617E00846C4A /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B17A881A2CAC617E00846C4A /* RealmSwift */; };
+		B17A881E2CAC61B100846C4A /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = B17A881D2CAC61B100846C4A /* SnapKit */; };
+		B17A88262CAC62C400846C4A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17A88252CAC62C400846C4A /* User.swift */; };
+		B17A88282CAC62D500846C4A /* RecipeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17A88272CAC62D500846C4A /* RecipeType.swift */; };
+		B17A882A2CAC62E700846C4A /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17A88292CAC62E700846C4A /* Recipe.swift */; };
+		B17A882C2CAC630300846C4A /* AddRecipeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17A882B2CAC630300846C4A /* AddRecipeViewModel.swift */; };
+		B17A882E2CAC630F00846C4A /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17A882D2CAC630F00846C4A /* AuthenticationViewModel.swift */; };
+		B17A88302CAC632200846C4A /* RecipeDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17A882F2CAC632200846C4A /* RecipeDetailViewModel.swift */; };
+		B17A88332CAC633200846C4A /* RecipeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17A88322CAC633200846C4A /* RecipeListViewModel.swift */; };
+		B17A88352CAC634000846C4A /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17A88342CAC634000846C4A /* RegistrationViewModel.swift */; };
+		B17A88372CAC636A00846C4A /* AddRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17A88362CAC636A00846C4A /* AddRecipeViewController.swift */; };
+		B17A88392CAC637700846C4A /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17A88382CAC637700846C4A /* AuthenticationViewController.swift */; };
+		B17A883B2CAC638100846C4A /* RecipeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17A883A2CAC638100846C4A /* RecipeDetailViewController.swift */; };
+		B17A883D2CAC638D00846C4A /* RecipeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17A883C2CAC638D00846C4A /* RecipeListViewController.swift */; };
+		B17A883F2CAC639700846C4A /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17A883E2CAC639700846C4A /* RegistrationViewController.swift */; };
+		B17A88412CAC63AB00846C4A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17A88402CAC63AB00846C4A /* Constants.swift */; };
+		B17A88432CAC63C300846C4A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17A88422CAC63C300846C4A /* Extensions.swift */; };
+		B17A88452CAC63E200846C4A /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17A88442CAC63E200846C4A /* AuthenticationService.swift */; };
+		B17A88472CAC63EB00846C4A /* RecipeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17A88462CAC63EB00846C4A /* RecipeService.swift */; };
+		B17A88492CAC63F600846C4A /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17A88482CAC63F600846C4A /* UserService.swift */; };
+		B17A884B2CAC644300846C4A /* recipetypes.json in Sources */ = {isa = PBXBuildFile; fileRef = B17A884A2CAC644300846C4A /* recipetypes.json */; };
+		B17A884D2CAC645A00846C4A /* sampleRecipes.json in Sources */ = {isa = PBXBuildFile; fileRef = B17A884C2CAC645A00846C4A /* sampleRecipes.json */; };
+		B17A884E2CAC6B4000846C4A /* RealmSwift in Embed Frameworks */ = {isa = PBXBuildFile; productRef = B17A881A2CAC617E00846C4A /* RealmSwift */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		B17A88502CAC6E9400846C4A /* recipetypes.json in Resources */ = {isa = PBXBuildFile; fileRef = B17A884A2CAC644300846C4A /* recipetypes.json */; };
+		B17A88512CAC6E9900846C4A /* sampleRecipes.json in Resources */ = {isa = PBXBuildFile; fileRef = B17A884C2CAC645A00846C4A /* sampleRecipes.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +63,24 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		B17A884F2CAC6B4000846C4A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B17A884E2CAC6B4000846C4A /* RealmSwift in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		B17A87DB2CAC5D5B00846C4A /* RecipeAppBackport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecipeAppBackport.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B17A87DE2CAC5D5B00846C4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B17A87E02CAC5D5B00846C4A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B17A87E22CAC5D5B00846C4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B17A87E52CAC5D5B00846C4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B17A87E72CAC5D5C00846C4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B17A87EA2CAC5D5C00846C4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +90,26 @@
 		B17A87FB2CAC5D5D00846C4A /* RecipeAppBackportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecipeAppBackportUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B17A87FF2CAC5D5D00846C4A /* RecipeAppBackportUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeAppBackportUITests.swift; sourceTree = "<group>"; };
 		B17A88012CAC5D5D00846C4A /* RecipeAppBackportUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeAppBackportUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B17A88252CAC62C400846C4A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B17A88272CAC62D500846C4A /* RecipeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeType.swift; sourceTree = "<group>"; };
+		B17A88292CAC62E700846C4A /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		B17A882B2CAC630300846C4A /* AddRecipeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecipeViewModel.swift; sourceTree = "<group>"; };
+		B17A882D2CAC630F00846C4A /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		B17A882F2CAC632200846C4A /* RecipeDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailViewModel.swift; sourceTree = "<group>"; };
+		B17A88322CAC633200846C4A /* RecipeListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListViewModel.swift; sourceTree = "<group>"; };
+		B17A88342CAC634000846C4A /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		B17A88362CAC636A00846C4A /* AddRecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecipeViewController.swift; sourceTree = "<group>"; };
+		B17A88382CAC637700846C4A /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
+		B17A883A2CAC638100846C4A /* RecipeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailViewController.swift; sourceTree = "<group>"; };
+		B17A883C2CAC638D00846C4A /* RecipeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListViewController.swift; sourceTree = "<group>"; };
+		B17A883E2CAC639700846C4A /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		B17A88402CAC63AB00846C4A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B17A88422CAC63C300846C4A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B17A88442CAC63E200846C4A /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
+		B17A88462CAC63EB00846C4A /* RecipeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeService.swift; sourceTree = "<group>"; };
+		B17A88482CAC63F600846C4A /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		B17A884A2CAC644300846C4A /* recipetypes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = recipetypes.json; sourceTree = "<group>"; };
+		B17A884C2CAC645A00846C4A /* sampleRecipes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = sampleRecipes.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +117,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B17A88162CAC5EE800846C4A /* RxCocoa in Frameworks */,
+				B17A88132CAC5DF600846C4A /* Kingfisher in Frameworks */,
+				B17A88182CAC5EE800846C4A /* RxSwift in Frameworks */,
+				B17A881E2CAC61B100846C4A /* SnapKit in Frameworks */,
+				B17A881B2CAC617E00846C4A /* RealmSwift in Frameworks */,
+				B17A88102CAC5DBD00846C4A /* CryptoSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,9 +166,14 @@
 		B17A87DD2CAC5D5B00846C4A /* RecipeAppBackport */ = {
 			isa = PBXGroup;
 			children = (
+				B17A88242CAC627900846C4A /* Resources */,
+				B17A88232CAC626F00846C4A /* Services */,
+				B17A88222CAC625E00846C4A /* Utils */,
+				B17A88212CAC624800846C4A /* Views */,
+				B17A88202CAC623A00846C4A /* ViewModels */,
+				B17A881F2CAC623000846C4A /* Models */,
 				B17A87DE2CAC5D5B00846C4A /* AppDelegate.swift */,
 				B17A87E02CAC5D5B00846C4A /* SceneDelegate.swift */,
-				B17A87E22CAC5D5B00846C4A /* ViewController.swift */,
 				B17A87E42CAC5D5B00846C4A /* Main.storyboard */,
 				B17A87E72CAC5D5C00846C4A /* Assets.xcassets */,
 				B17A87E92CAC5D5C00846C4A /* LaunchScreen.storyboard */,
@@ -127,6 +199,68 @@
 			path = RecipeAppBackportUITests;
 			sourceTree = "<group>";
 		};
+		B17A881F2CAC623000846C4A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B17A88252CAC62C400846C4A /* User.swift */,
+				B17A88272CAC62D500846C4A /* RecipeType.swift */,
+				B17A88292CAC62E700846C4A /* Recipe.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B17A88202CAC623A00846C4A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B17A882B2CAC630300846C4A /* AddRecipeViewModel.swift */,
+				B17A882D2CAC630F00846C4A /* AuthenticationViewModel.swift */,
+				B17A882F2CAC632200846C4A /* RecipeDetailViewModel.swift */,
+				B17A88322CAC633200846C4A /* RecipeListViewModel.swift */,
+				B17A88342CAC634000846C4A /* RegistrationViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B17A88212CAC624800846C4A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B17A88362CAC636A00846C4A /* AddRecipeViewController.swift */,
+				B17A88382CAC637700846C4A /* AuthenticationViewController.swift */,
+				B17A883A2CAC638100846C4A /* RecipeDetailViewController.swift */,
+				B17A883C2CAC638D00846C4A /* RecipeListViewController.swift */,
+				B17A883E2CAC639700846C4A /* RegistrationViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B17A88222CAC625E00846C4A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B17A88402CAC63AB00846C4A /* Constants.swift */,
+				B17A88422CAC63C300846C4A /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B17A88232CAC626F00846C4A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B17A88442CAC63E200846C4A /* AuthenticationService.swift */,
+				B17A88462CAC63EB00846C4A /* RecipeService.swift */,
+				B17A88482CAC63F600846C4A /* UserService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B17A88242CAC627900846C4A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B17A884A2CAC644300846C4A /* recipetypes.json */,
+				B17A884C2CAC645A00846C4A /* sampleRecipes.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,12 +271,21 @@
 				B17A87D72CAC5D5B00846C4A /* Sources */,
 				B17A87D82CAC5D5B00846C4A /* Frameworks */,
 				B17A87D92CAC5D5B00846C4A /* Resources */,
+				B17A884F2CAC6B4000846C4A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = RecipeAppBackport;
+			packageProductDependencies = (
+				B17A880F2CAC5DBD00846C4A /* CryptoSwift */,
+				B17A88122CAC5DF600846C4A /* Kingfisher */,
+				B17A88152CAC5EE800846C4A /* RxCocoa */,
+				B17A88172CAC5EE800846C4A /* RxSwift */,
+				B17A881A2CAC617E00846C4A /* RealmSwift */,
+				B17A881D2CAC61B100846C4A /* SnapKit */,
+			);
 			productName = RecipeAppBackport;
 			productReference = B17A87DB2CAC5D5B00846C4A /* RecipeAppBackport.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +358,13 @@
 				Base,
 			);
 			mainGroup = B17A87D22CAC5D5B00846C4A;
+			packageReferences = (
+				B17A880E2CAC5DBD00846C4A /* XCRemoteSwiftPackageReference "CryptoSwift" */,
+				B17A88112CAC5DF600846C4A /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				B17A88142CAC5EE800846C4A /* XCRemoteSwiftPackageReference "RxSwift" */,
+				B17A88192CAC617E00846C4A /* XCRemoteSwiftPackageReference "realm-swift" */,
+				B17A881C2CAC61B100846C4A /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = B17A87DC2CAC5D5B00846C4A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,6 +381,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B17A88512CAC6E9900846C4A /* sampleRecipes.json in Resources */,
+				B17A88502CAC6E9400846C4A /* recipetypes.json in Resources */,
 				B17A87EB2CAC5D5C00846C4A /* LaunchScreen.storyboard in Resources */,
 				B17A87E82CAC5D5C00846C4A /* Assets.xcassets in Resources */,
 				B17A87E62CAC5D5B00846C4A /* Main.storyboard in Resources */,
@@ -258,8 +410,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B17A87E32CAC5D5B00846C4A /* ViewController.swift in Sources */,
+				B17A88372CAC636A00846C4A /* AddRecipeViewController.swift in Sources */,
+				B17A88432CAC63C300846C4A /* Extensions.swift in Sources */,
+				B17A88412CAC63AB00846C4A /* Constants.swift in Sources */,
+				B17A884D2CAC645A00846C4A /* sampleRecipes.json in Sources */,
+				B17A884B2CAC644300846C4A /* recipetypes.json in Sources */,
+				B17A88262CAC62C400846C4A /* User.swift in Sources */,
+				B17A883B2CAC638100846C4A /* RecipeDetailViewController.swift in Sources */,
+				B17A88352CAC634000846C4A /* RegistrationViewModel.swift in Sources */,
+				B17A882C2CAC630300846C4A /* AddRecipeViewModel.swift in Sources */,
+				B17A88472CAC63EB00846C4A /* RecipeService.swift in Sources */,
+				B17A883D2CAC638D00846C4A /* RecipeListViewController.swift in Sources */,
+				B17A88282CAC62D500846C4A /* RecipeType.swift in Sources */,
+				B17A882E2CAC630F00846C4A /* AuthenticationViewModel.swift in Sources */,
+				B17A88302CAC632200846C4A /* RecipeDetailViewModel.swift in Sources */,
+				B17A883F2CAC639700846C4A /* RegistrationViewController.swift in Sources */,
+				B17A88492CAC63F600846C4A /* UserService.swift in Sources */,
+				B17A882A2CAC62E700846C4A /* Recipe.swift in Sources */,
 				B17A87DF2CAC5D5B00846C4A /* AppDelegate.swift in Sources */,
+				B17A88452CAC63E200846C4A /* AuthenticationService.swift in Sources */,
+				B17A88392CAC637700846C4A /* AuthenticationViewController.swift in Sources */,
+				B17A88332CAC633200846C4A /* RecipeListViewModel.swift in Sources */,
 				B17A87E12CAC5D5B00846C4A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,7 +539,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -425,7 +596,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -450,6 +621,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -478,6 +650,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -607,6 +780,82 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B17A880E2CAC5DBD00846C4A /* XCRemoteSwiftPackageReference "CryptoSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzyzanowskim/CryptoSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.8.3;
+			};
+		};
+		B17A88112CAC5DF600846C4A /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.3;
+			};
+		};
+		B17A88142CAC5EE800846C4A /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.7.1;
+			};
+		};
+		B17A88192CAC617E00846C4A /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				branch = release/10.52.3;
+				kind = branch;
+			};
+		};
+		B17A881C2CAC61B100846C4A /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B17A880F2CAC5DBD00846C4A /* CryptoSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B17A880E2CAC5DBD00846C4A /* XCRemoteSwiftPackageReference "CryptoSwift" */;
+			productName = CryptoSwift;
+		};
+		B17A88122CAC5DF600846C4A /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B17A88112CAC5DF600846C4A /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		B17A88152CAC5EE800846C4A /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B17A88142CAC5EE800846C4A /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		B17A88172CAC5EE800846C4A /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B17A88142CAC5EE800846C4A /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		B17A881A2CAC617E00846C4A /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B17A88192CAC617E00846C4A /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		B17A881D2CAC61B100846C4A /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B17A881C2CAC61B100846C4A /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B17A87D32CAC5D5B00846C4A /* Project object */;
 }

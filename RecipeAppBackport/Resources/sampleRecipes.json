@@ -1,0 +1,310 @@
+[
+    {
+        "id": "1a2b3c4d-5e6f-7g8h-9i0j-k1l2m3n4o5p6",
+        "typeID": "1",
+        "title": "Bruschetta",
+        "imageData": null,
+        "ingredients": [
+            "1 Baguette",
+            "4 Tomatoes",
+            "10 Basil Leaves",
+            "2 tablespoons Olive Oil",
+            "1 Garlic Clove"
+        ],
+        "steps": [
+            "Slice the baguette into 1/2-inch thick slices.",
+            "Toast the slices on a grill or in a toaster oven until golden brown.",
+            "Finely chop the tomatoes and basil leaves.",
+            "In a bowl, mix the chopped tomatoes and basil with olive oil.",
+            "Rub each toasted baguette slice with a peeled garlic clove.",
+            "Top the baguette slices with the tomato mixture.",
+            "Serve immediately."
+        ],
+        "createdAt": "2023-10-01T10:00:00Z",
+        "userID": "user-123"
+    },
+    {
+        "id": "2b3c4d5e-6f7g-8h9i-0j1k-2l3m4n5o6p7q",
+        "typeID": "2",
+        "title": "Grilled Chicken",
+        "imageData": null,
+        "ingredients": [
+            "4 Chicken Breasts",
+            "Salt to taste",
+            "Pepper to taste",
+            "2 tablespoons Olive Oil",
+            "1 Lemon"
+        ],
+        "steps": [
+            "Season the chicken breasts with salt and pepper on both sides.",
+            "Preheat the grill to medium-high heat.",
+            "Brush the chicken breasts with olive oil.",
+            "Grill the chicken for 6-7 minutes on each side or until fully cooked.",
+            "Serve with lemon wedges."
+        ],
+        "createdAt": "2023-10-02T12:30:00Z",
+        "userID": "user-123"
+    },
+    {
+        "id": "3c4d5e6f-7g8h-9i0j-1k2l-3m4n5o6p7q8r",
+        "typeID": "3",
+        "title": "Chocolate Cake",
+        "imageData": null,
+        "ingredients": [
+            "2 cups Flour",
+            "3/4 cup Cocoa Powder",
+            "1 1/2 cups Sugar",
+            "2 Eggs",
+            "1 cup Butter, melted",
+            "1 teaspoon Baking Powder",
+            "1 cup Milk"
+        ],
+        "steps": [
+            "Preheat the oven to 350°F (175°C).",
+            "In a large bowl, mix flour, cocoa powder, sugar, and baking powder.",
+            "Add eggs and melted butter to the dry ingredients and mix well.",
+            "Gradually add milk to the batter, stirring continuously until smooth.",
+            "Pour the batter into a greased 9x13-inch baking pan.",
+            "Bake for 30-35 minutes or until a toothpick inserted into the center comes out clean.",
+            "Allow the cake to cool before serving."
+        ],
+        "createdAt": "2023-10-03T15:45:00Z",
+        "userID": "user-123"
+    },
+    {
+        "id": "4d5e6f7g-8h9i-0j1k-2l3m-4n5o6p7q8r9s",
+        "typeID": "4",
+        "title": "Lemonade",
+        "imageData": null,
+        "ingredients": [
+            "6 Lemons",
+            "1 cup Sugar",
+            "5 cups Water",
+            "Ice cubes"
+        ],
+        "steps": [
+            "Juice the lemons to make 1 cup of lemon juice.",
+            "In a pitcher, combine lemon juice and sugar.",
+            "Stir until the sugar is completely dissolved.",
+            "Add water to the pitcher and mix well.",
+            "Add ice cubes to serve chilled."
+        ],
+        "createdAt": "2023-10-04T09:20:00Z",
+        "userID": "user-123"
+    },
+    {
+        "id": "5e6f7g8h-9i0j-1k2l-3m4n-5o6p7q8r9s0t",
+        "typeID": "1",
+        "title": "Stuffed Mushrooms",
+        "imageData": null,
+        "ingredients": [
+            "20 Button Mushrooms",
+            "1/2 cup Cream Cheese",
+            "1/4 cup Parmesan Cheese, grated",
+            "2 cloves Garlic, minced",
+            "2 tablespoons Fresh Parsley, chopped",
+            "Salt and Pepper to taste"
+        ],
+        "steps": [
+            "Preheat the oven to 375°F (190°C).",
+            "Clean the mushrooms and remove the stems.",
+            "In a bowl, mix cream cheese, Parmesan cheese, garlic, parsley, salt, and pepper.",
+            "Stuff each mushroom cap with the cheese mixture.",
+            "Place the stuffed mushrooms on a baking sheet.",
+            "Bake for 20 minutes or until the tops are golden brown.",
+            "Serve warm."
+        ],
+        "createdAt": "2023-10-05T11:15:00Z",
+        "userID": "user-123"
+    },
+    {
+        "id": "6f7g8h9i-0j1k-2l3m-4n5o-6p7q8r9s0t1u",
+        "typeID": "2",
+        "title": "Beef Stroganoff",
+        "imageData": null,
+        "ingredients": [
+            "1 lb Beef Sirloin, thinly sliced",
+            "2 tablespoons Flour",
+            "1 tablespoon Butter",
+            "1 onion, chopped",
+            "2 cloves Garlic, minced",
+            "8 oz Mushrooms, sliced",
+            "1 cup Beef Broth",
+            "1 tablespoon Worcestershire Sauce",
+            "1/2 cup Sour Cream",
+            "Salt and Pepper to taste",
+            "Egg Noodles for serving"
+        ],
+        "steps": [
+            "Season the beef with salt and pepper, then toss with flour.",
+            "In a large skillet, melt butter over medium-high heat.",
+            "Add the beef and cook until browned. Remove and set aside.",
+            "In the same skillet, sauté onions and garlic until translucent.",
+            "Add mushrooms and cook until softened.",
+            "Pour in beef broth and Worcestershire sauce, bringing to a simmer.",
+            "Return the beef to the skillet and cook for 5 minutes.",
+            "Stir in sour cream and heat through without boiling.",
+            "Serve over cooked egg noodles."
+        ],
+        "createdAt": "2023-10-06T14:50:00Z",
+        "userID": "user-123"
+    },
+    {
+        "id": "7g8h9i0j-1k2l-3m4n-5o6p-7q8r9s0t1u2v",
+        "typeID": "3",
+        "title": "Apple Pie",
+        "imageData": null,
+        "ingredients": [
+            "2 pre-made pie crusts",
+            "6 cups Apples, peeled and sliced",
+            "3/4 cup Sugar",
+            "2 tablespoons Flour",
+            "1 teaspoon Cinnamon",
+            "1/4 teaspoon Nutmeg",
+            "1 tablespoon Lemon Juice",
+            "1 tablespoon Butter"
+        ],
+        "steps": [
+            "Preheat the oven to 425°F (220°C).",
+            "Place one pie crust in a 9-inch pie dish.",
+            "In a large bowl, combine apples, sugar, flour, cinnamon, nutmeg, and lemon juice.",
+            "Pour the apple mixture into the pie crust.",
+            "Dot the filling with small pieces of butter.",
+            "Cover with the second pie crust and seal the edges.",
+            "Cut small slits in the top crust to allow steam to escape.",
+            "Bake for 45-50 minutes or until the crust is golden brown.",
+            "Let the pie cool before serving."
+        ],
+        "createdAt": "2023-10-07T16:25:00Z",
+        "userID": "user-123"
+    },
+    {
+        "id": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+        "typeID": "4",
+        "title": "Iced Tea",
+        "imageData": null,
+        "ingredients": [
+            "4 tea bags",
+            "4 cups boiling water",
+            "1/2 cup Sugar",
+            "4 cups Cold water",
+            "Ice cubes",
+            "Lemon slices for garnish"
+        ],
+        "steps": [
+            "Steep the tea bags in boiling water for 5 minutes.",
+            "Remove the tea bags and stir in sugar until dissolved.",
+            "Let the tea mixture cool to room temperature.",
+            "Pour the tea into a pitcher and add cold water.",
+            "Refrigerate until chilled.",
+            "Serve over ice cubes and garnish with lemon slices."
+        ],
+        "createdAt": "2023-10-08T08:10:00Z",
+        "userID": "user-123"
+    },
+    {
+        "id": "9i0j1k2l-3m4n-5o6p-7q8r-9s0t1u2v3w4x",
+        "typeID": "1",
+        "title": "Caprese Salad",
+        "imageData": null,
+        "ingredients": [
+            "3 large Tomatoes",
+            "1 lb Fresh Mozzarella Cheese",
+            "Fresh Basil Leaves",
+            "2 tablespoons Olive Oil",
+            "1 tablespoon Balsamic Vinegar",
+            "Salt and Pepper to taste"
+        ],
+        "steps": [
+            "Slice the tomatoes and mozzarella cheese into 1/4-inch thick slices.",
+            "Arrange the tomato and mozzarella slices alternately on a platter.",
+            "Tuck fresh basil leaves between the slices.",
+            "Drizzle with olive oil and balsamic vinegar.",
+            "Season with salt and pepper to taste.",
+            "Serve immediately."
+        ],
+        "createdAt": "2023-10-09T10:40:00Z",
+        "userID": "user-123"
+    },
+    {
+        "id": "0j1k2l3m-4n5o-6p7q-8r9s-0t1u2v3w4x5y",
+        "typeID": "2",
+        "title": "Spaghetti Bolognese",
+        "imageData": null,
+        "ingredients": [
+            "1 lb Ground Beef",
+            "1 onion, chopped",
+            "2 cloves Garlic, minced",
+            "1 can (28 oz) Crushed Tomatoes",
+            "2 tablespoons Tomato Paste",
+            "1 teaspoon Dried Oregano",
+            "1 teaspoon Dried Basil",
+            "Salt and Pepper to taste",
+            "1 lb Spaghetti",
+            "Grated Parmesan Cheese for serving"
+        ],
+        "steps": [
+            "In a large skillet, cook ground beef over medium heat until browned. Drain excess fat.",
+            "Add chopped onion and minced garlic to the beef and cook until the onion is translucent.",
+            "Stir in crushed tomatoes, tomato paste, oregano, and basil.",
+            "Season with salt and pepper. Simmer the sauce for 30 minutes, stirring occasionally.",
+            "Meanwhile, cook spaghetti according to package instructions until al dente. Drain.",
+            "Serve the Bolognese sauce over the spaghetti and top with grated Parmesan cheese."
+        ],
+        "createdAt": "2023-10-10T13:55:00Z",
+        "userID": "user-123"
+    },
+    {
+        "id": "1k2l3m4n-5o6p-7q8r-9s0t-1u2v3w4x5y6z",
+        "typeID": "3",
+        "title": "Cheesecake",
+        "imageData": null,
+        "ingredients": [
+            "2 cups Graham Cracker Crumbs",
+            "1/2 cup Butter, melted",
+            "4 (8 oz) packages Cream Cheese, softened",
+            "1 1/4 cups Sugar",
+            "1/2 cup Sour Cream",
+            "2 teaspoons Vanilla Extract",
+            "4 Eggs"
+        ],
+        "steps": [
+            "Preheat the oven to 325°F (163°C).",
+            "In a bowl, combine graham cracker crumbs and melted butter. Press the mixture into the bottom of a 9-inch springform pan.",
+            "In a large mixing bowl, beat cream cheese and sugar until smooth and creamy.",
+            "Add sour cream and vanilla extract, mixing until well combined.",
+            "Add eggs one at a time, beating just until combined after each addition.",
+            "Pour the cream cheese mixture over the crust in the springform pan.",
+            "Bake for 50-60 minutes, or until the center is set.",
+            "Turn off the oven and let the cheesecake cool in the oven with the door slightly open for 1 hour.",
+            "Refrigerate the cheesecake for at least 4 hours before serving."
+        ],
+        "createdAt": "2023-10-11T17:30:00Z",
+        "userID": "user-123"
+    },
+    {
+        "id": "2l3m4n5o-6p7q-8r9s-0t1u-2v3w4x5y6z7a",
+        "typeID": "4",
+        "title": "Mojito",
+        "imageData": null,
+        "ingredients": [
+            "10 Fresh Mint Leaves",
+            "1/2 Lime, cut into 4 wedges",
+            "2 tablespoons White Sugar",
+            "1 cup Ice Cubes",
+            "1 1/2 ounces White Rum",
+            "1/2 cup Soda Water"
+        ],
+        "steps": [
+            "Place mint leaves and 1 lime wedge into a sturdy glass.",
+            "Use a muddler to crush the mint and lime to release the mint oils and lime juice.",
+            "Add 2 more lime wedges and the sugar, and muddle again to release the lime juice.",
+            "Do not strain the mixture.",
+            "Fill the glass almost to the top with ice cubes.",
+            "Pour the rum over the ice, and fill the glass with soda water.",
+            "Stir well and garnish with the remaining lime wedge."
+        ],
+        "createdAt": "2023-10-12T19:05:00Z",
+        "userID": "user-123"
+    }
+]

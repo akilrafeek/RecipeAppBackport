@@ -1,19 +1,37 @@
-//
-//  AppDelegate.swift
-//  RecipeAppBackport
-//
-//  Created by Rizwan Rafeek on 02/10/2024.
-//
-
 import UIKit
+import RxSwift
+import RealmSwift
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    var window: UIWindow?
+    let disposeBag = DisposeBag()
 
+    func application(_ application: UIApplication,
+                     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        // Initialize Realm with updated configuration
+        Realm.Configuration.defaultConfiguration = Constants.realmConfig
 
-
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        do {
+            _ = try Realm()
+        } catch {
+            fatalError("Error initializing Realm: \(error)")
+        }
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        
+        // Check Authentication
+        if AuthenticationService.shared.isLoggedIn() {
+            let recipeListVC = RecipeListViewController()
+            let navController = UINavigationController(rootViewController: recipeListVC)
+            window?.rootViewController = navController
+        } else {
+            let authVC = AuthenticationViewController()
+            let navController = UINavigationController(rootViewController: authVC)
+            window?.rootViewController = navController
+        }
+        
+        window?.makeKeyAndVisible()
         return true
     }
 
@@ -33,4 +51,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-
